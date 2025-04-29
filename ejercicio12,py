@@ -1,0 +1,10 @@
+Lista = ["pera", "mango", "arroz "]
+print ( Lista)
+eliminar = input("que fruta deseas eliminar ")
+if  eliminar in Lista :
+    Lista.remove(eliminar)
+    print("fruta removida")
+else :
+    print("la fruta no esta en la lista")
+
+    
